@@ -17,7 +17,7 @@ def SimulatedAnnealing(low,high,func,T):
     x=start*1
     cur=func(x)
     history=[x]
-    for i in range(1000):
+    for i in range(500):
         prop=-1
         while(prop<0 or prop>10): 
             prop=x+np.random.normal()
@@ -44,7 +44,6 @@ x1,x_history= SimulatedAnnealing(0,10,function,T=0.5)
 y_history=np.array([function(t) for t in x_history])
 
 
-
 def animate(i):
     x_value=(x_history[i])
     y_value=(y_history[i])
@@ -54,8 +53,8 @@ def animate(i):
     plt.plot(x,y)
     plt.plot(x_value,y_value,'r*')
 
-ani = FuncAnimation(plt.gcf(),animate,interval=100)
+ani = FuncAnimation(plt.gcf(),animate,frames=np.arange(500),interval=1,repeat=False)
 
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 
