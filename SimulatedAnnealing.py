@@ -55,6 +55,6 @@ def animate(i):
 
 ani = FuncAnimation(plt.gcf(),animate,frames=np.arange(500),interval=1,repeat=False)
 
-#plt.tight_layout()
+plt.tight_layout()
 plt.show()
 
