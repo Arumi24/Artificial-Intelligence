@@ -1,6 +1,6 @@
 # Artificial-Intelligence
 
-**_Python_** code programmed using **_Object Oriented Design_**, **_Data Structures_** and high level **_Algorithms_** are used to solve problems in an Artifically Intelligent Manner (**_Non-Machine Learning_**, More **_Algorithms/Data Structure_** & **_Probabilistic Reasoning_**)
+**_Python_** code programmed using **_Object Oriented Design_**, **_Data Structures_** and high level **_Algorithms_** are used to solve problems in a "Artifical Intelligent" Manner (**_Non-Machine Learning_**, More **_Algorithms/Data Structure_** & **_Probabilistic Reasoning_**)
 
 ## 8-Puzzle.py: Application of Searching Algorithms
 
