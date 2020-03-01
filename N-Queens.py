@@ -36,8 +36,7 @@ class N_Queens(object):
             if ((x+(i-y)>=0) and (x+(i-y)<=self.size-1)) and ((y+(i-y)>=0) and (y+(i-y)<=self.size-1)):
                 if self.board[x+(i-y)][y+(i-y)]==1:
                     count=count+1
-        
-             
+                  
         # diagonal 2
         for i in range(0,y):
             if ((x+i+1>=0) and (x+i+1<=self.size-1)) and ((y-i-1>=0) and (y-i-1<=self.size-1)):
@@ -54,6 +53,7 @@ class N_Queens(object):
         else:
             return False
 
+        
     def solve(self,col):
 
         if col>=self.size:
@@ -77,7 +77,7 @@ def main():
     if board.solve(0):
         board.printBoard()
     else:
-        print("nothing")
+        print("No Solutions Found")
     
 if __name__ == '__main__':
     main()
