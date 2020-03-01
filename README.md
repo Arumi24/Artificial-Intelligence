@@ -9,3 +9,8 @@ Programmed an **_AI_** to help solve classical game **_8-Puzzle_**. I programmed
 ## SimulatedAnnealing.py & SimulatedAnnealing.mov
 
 Programmed a **_Simulated Annealing_** which is an **_optimization algorithm_**, more specifically it is a **_probabilistic technique for approximating the global optimum of a given function_**, I tested out my algorithm on a function in **_2D Space_** that contains many **_local maxima & local minima_** and it converges to the **_global optimum_** with high accuracy by **_probabilistically escaping local minima/maxima_**, I added an **_animation graph_** of my algorithm searching for the global optimal using **_Matplotlib.Animation_**, a movie clip is avaiable of this optimization search under **SimulatedAnnealing.mov**
+
+
+## N-Queens.py
+
+Programmed an **_AI_** that helps solve a classical **_Constraint Satisfaction Problem_** called **_N-Queens_**. I implement a **_recursive algorithm_** to help me search possible states in my constrained domain, this part of the algorithm is the **_forward search_**, if the search states reach a point where no possible solutions exist I implemented **_backtracking_** so it can search previously unsearched states
