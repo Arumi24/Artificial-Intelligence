@@ -10,6 +10,8 @@ Programmed an **_AI_** to help solve classical game **_8-Puzzle_**. I programmed
 
 Programmed a **_Simulated Annealing_** which is an **_optimization algorithm_**, more specifically it is a **_probabilistic technique for approximating the global optimum of a given function_**, I tested out my algorithm on a function in **_2D Space_** that contains many **_local maxima & local minima_** and it converges to the **_global optimum_** with high accuracy by **_probabilistically escaping local minima/maxima_**, I added an **_animation graph_** of my algorithm searching for the global optimal using **_Matplotlib.Animation_**, a movie clip is avaiable of this optimization search under **SimulatedAnnealing.mov**
 
+![Image description](/SimulatedAnnealing.png)
+
 
 ## N-Queens.py: Application of Constraint Satisfaction Problem
 
