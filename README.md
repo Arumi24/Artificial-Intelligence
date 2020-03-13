@@ -12,6 +12,8 @@ Programmed a **_Simulated Annealing_** algorithm which is an **_optimization alg
 
 <img src="SimulatedAnnealing.png" alt="SimulatedAnnealing" width="400"/>
 
+![](SimulatedAnnealing.gif)
+
 
 ## N-Queens.py: Application of Constraint Satisfaction Problem
 
