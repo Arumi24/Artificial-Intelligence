@@ -7,7 +7,6 @@ import time
 
 class Game(object):
 
-    
     def __init__(self,data,utilities,actions):
 
         self.utilities=utilities
@@ -232,13 +231,9 @@ class Game(object):
         
         pygame.quit()
 
-
-  
-   
+        
     def findBestMove(self,state):
-
-    
-   
+        
         maxim=0
         move=''
     
