@@ -1,8 +1,6 @@
 import pprint
 import time
 
-
-
 class State(object):
 
     def __init__(self,reward,start=False):
@@ -98,7 +96,6 @@ class Action(object):
         return [self.action,self.fromm,self.to]
 
 
-
 class MarkovDecisionGraph(object):
 
     def __init__(self,start_node):
@@ -159,10 +156,7 @@ class MarkovDecisionGraph(object):
             self.coordinates[k][0]=self.coordinates[k][1]
             self.coordinates[k][1]=temp
             
-     
-
-
-
+    
 def main():
 
     start=State(0,True)
@@ -189,9 +183,7 @@ def main():
 
     graph.addAction(empty3,empty2,"left")
     graph.addAction(empty3,goal2,"right")
-
-
-   
+  
 
     pprint.pprint(graph.coordinates)
 
@@ -207,12 +199,6 @@ def main():
     pprint.pprint(graph.coordinates)
 
    
-
-
-    
-
- 
-
 if __name__ == '__main__':
     main()
 
