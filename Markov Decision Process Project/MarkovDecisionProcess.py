@@ -23,21 +23,11 @@ class MDP(object):
                 for i in self.actions_per_states[key]:
                     
                     transition_state_utilities.append(self.utilities[i[1]])
-
-                
+              
                 if len(transition_state_utilities)>0:
                     self.utilities[key]=key.getReward()+discount_factor*max(transition_state_utilities)
                 else:
                     self.utilities[key]=key.getReward()
-
-
-
-
-
-
-        
-
-
 
 def createAgent():
    
@@ -149,19 +139,11 @@ def createAgent():
     pprint.pprint(mdp.utilities)
     """
     game=Game(graph.coordinates)
-
-    
-
-
     game.runGame()
     """
     return graph.coordinates,mdp.utilities, mdp.actions_per_states
 
 
-
 if __name__ == '__main__':
     main()
-
-
-    
     
