@@ -188,11 +188,7 @@ class PuzzleSolver(object):
                             self.memoization.append(self.tree.currentNode.data.applyMove(self.tree.currentNode.data.move())[x])
                             self.tree.addChild(Node(Board(self.tree.currentNode.data.applyMove(self.tree.currentNode.data.move())[x]),
                                 self.tree.currentNode))
-
-                     
-                          
-
-
+                            
                     if (np.array_equal(self.tree.currentNode.data.applyMove(self.tree.currentNode.data.move())[x],self.goal))==True:
                         self.printTree()
                         return
