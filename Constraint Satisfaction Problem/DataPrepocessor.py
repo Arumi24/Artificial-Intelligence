@@ -11,7 +11,6 @@ Object will be called to process data according to Mistplay requirements
 
 This object may be used to process any dataset that adhere to proper file format. Futher methods may be added to deal with future data processing needs
 
-
 Documentation:
 
     class DataPrepocessor:
@@ -46,7 +45,6 @@ Documentation:
 
 
 """
-
 
 
 # imported packages
@@ -269,7 +267,6 @@ class DataPrepocessor(object):
 
     def getData(self):
         return self.df
-
 
 """
 This code follows object oriented design standard and is meant to be used for future data preprocessing.
