@@ -52,11 +52,13 @@ Documentation:
 # imported packages
 # Requirements: Python Data Structure, Regex, Encryption, JSON reader, Parquet reader, JSONtoParquet converter
 
+""" PySpark  dataframe may be used if data being processed is considered Big Data"""
+
 import snappy
 import re
 import json
 import fastparquet
-import pandas as pd  """ PySpark  dataframe may be used if data being processed is considered Big Data"""
+import pandas as pd  
 from cryptography.fernet import Fernet
 from json2parquet import convert_json
 
