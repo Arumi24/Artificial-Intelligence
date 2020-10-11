@@ -4,10 +4,7 @@ import random
 import time
 import copy
 
-"""
-Testing to see whats here
 
-"""
 
 class Board(object):
 
