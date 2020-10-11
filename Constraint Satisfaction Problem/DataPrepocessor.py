@@ -212,7 +212,6 @@ class DataPrepocessor(object):
     
     def invertedIndex(self,keyColumn, valueColumn, fileName,parquet=True):
         
-        
         if self.df is None:
             print("No Data Available")
         else:
